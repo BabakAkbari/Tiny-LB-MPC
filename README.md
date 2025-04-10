@@ -42,9 +42,13 @@ Tiny-LB-MPC achieves:
 Here are three videos comparing Tiny LB MPC with Tiny L MPC and Tiny FB MPC:
 
 <p align="center">
-  <img src="media/Tiny L MPC.gif" width="250" alt="Tiny L MPC">
+<video width="300" controls>
+    <source src="/media/Tiny L MPC.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <!-- <img src="media/Tiny L MPC.gif" width="250" alt="Tiny L MPC">
   <img src="media/Tiny FB MPC.gif" width="250" alt="Tiny FB MPC">
-  <img src="media/Tiny LB MPC.gif" width="250" alt="Tiny LB MPC">
+  <img src="media/Tiny LB MPC.gif" width="250" alt="Tiny LB MPC"> -->
 </p>
 
 ### Citation
