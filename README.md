@@ -67,7 +67,7 @@ Here are three GIFs showcasing different versions of the Tiny-LB-MPC implementat
 
 <div style="display: flex; justify-content: space-between;">
   <!-- <img src="media/Tiny_L_MPC.gif" width="300" alt="Tiny L MPC"> -->
-  <img src="media/TinyFBMPC.gif" width="300" alt="Tiny FB MPC">
+  <img src="media/Tiny FB MPC.gif" width="300" alt="Tiny FB MPC">
   <!-- <img src="media/Tiny_LB_MPC.gif" width="300" alt="Tiny LB MPC"> -->
 </div>
 
