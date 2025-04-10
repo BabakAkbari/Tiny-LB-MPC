@@ -14,4 +14,4 @@ def mp4_to_gif(mp4_file, gif_file):
     video.write_gif(gif_file)
 
 # Example usage
-mp4_to_gif("Tiny L MPC.mp4", "Tiny L MPC.gif")
+mp4_to_gif("Tiny FB MPC.mp4", "Tiny FB MPC.gif")
