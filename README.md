@@ -70,14 +70,6 @@ Here are three videos showcasing different versions of the Tiny-LB-MPC implement
     <source src="/media/Tiny L MPC.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <video width="300" controls>
-    <source src="/media/Tiny FB MPC.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="300" controls>
-    <source src="/media/Tiny LB MPC.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
 </div>
 
 ---
