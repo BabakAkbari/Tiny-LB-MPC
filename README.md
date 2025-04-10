@@ -63,22 +63,12 @@ Tiny-LB-MPC achieves:
 
 ### Videos
 
+
 Here are three videos showcasing different versions of the Tiny-LB-MPC implementation:
 
-<div style="display: flex; justify-content: space-between;">
-  <video width="300" controls>
-    <source src="media/Tiny L MPC.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="300" controls>
-    <source src="media/Tiny FB MPC.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="300" controls>
-    <source src="media/Tiny LB MPC.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
+- [Tiny L MPC](media/Tiny%20L%20MPC.mp4)
+- [Tiny FB MPC](media/Tiny%20FB%20MPC.mp4)
+- [Tiny LB MPC](media/Tiny%20LB%20MPC.mp4)
 
 ---
 
