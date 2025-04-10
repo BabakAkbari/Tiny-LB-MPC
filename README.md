@@ -1,10 +1,6 @@
 # Tiny Learning-Based Model Predictive Control (Tiny-LB-MPC)
 
-Tiny-LB-MPC is a novel framework for deploying learning-based model predictive control (MPC) on resource-constrained micro multirotor platforms. This repository contains the implementation used in the paper:
-
-> **Tiny Learning-Based MPC for Multirotors: Solver-Aware Learning for Efficient Embedded Predictive Control**  
-> *Babak Akbari, Justin Frank, Melissa Greeff*  
-> [arXiv:2410.23634](https://arxiv.org/abs/2410.23634)
+Tiny-LB-MPC is a novel framework for deploying learning-based model predictive control (MPC) on resource-constrained micro multirotor platforms.
 
 ---
 
@@ -13,7 +9,7 @@ Tiny-LB-MPC is a novel framework for deploying learning-based model predictive c
 Tiny aerial robots offer immense promise for applications like search and rescue, exploration, and monitoring. However, their computational constraints make it difficult to deploy advanced control algorithms.
 
 Tiny-LB-MPC tackles this by:
-- Leveraging the **differential flatness** property of multirotors to reduce the problem complexity.
+- Leveraging the **differential flatness** property of multirotors to reduce problem complexity.
 - Introducing a **solver-aware learning** approach that makes the control problem tractable on embedded hardware.
 - Achieving **real-time control at 100 Hz** onboard microcontrollers.
 
@@ -43,19 +39,43 @@ This is the **first implementation of learning-based MPC deployed onboard** a ti
 ## Getting Started
 
 ### Clone the Repository
+
 ```bash
 git clone https://github.com/BabakAkbari/Tiny-LB-MPC.git
 ```
 
 ### Prerequisites
-- Arduino IDE or PlatformIO
-- Teensyduino add-on
-- CMake toolchain (optional)
 
-### Build and Flash
-- Open the firmware folder in the Arduino IDE.
-- Select **Teensy 4.0** as the board.
-- Compile and upload the code to your Teensy.
+- [Visual Studio Code](https://code.visualstudio.com/)
+- [PlatformIO VS Code extension](https://platformio.org/install/ide?install=vscode)
+- Teensy platform for PlatformIO
+
+### Teensy Setup for PlatformIO
+
+1. Install PlatformIO in VS Code.
+2. Install the Teensy platform:
+   ```bash
+   pio platform install teensy
+   ```
+3. (Optional) Example `platformio.ini` for Teensy 4.0:
+
+   ```ini
+   [env:teensy40]
+   platform = teensy
+   board = teensy40
+   framework = arduino
+   upload_protocol = teensy-cli
+   monitor_speed = 115200
+   ```
+
+### Build and Upload
+
+1. Open the `firmware/` directory in VS Code using PlatformIO.
+2. Use the **Build** and **Upload** buttons in the PlatformIO toolbar, or run:
+
+   ```bash
+   pio run --target upload
+   ```
 
 Refer to the `/firmware` and `/models` folders for code organization.
 
@@ -63,24 +83,25 @@ Refer to the `/firmware` and `/models` folders for code organization.
 
 ## Usage
 
-- Load and initialize the MPC module.
-- Send trajectory waypoints from the base station (or use predefined ones).
-- Observe the performance through Crazyflie's logging and visualizations.
+- Load and initialize the MPC module on Teensy.
+- Send trajectory waypoints from a base station or use predefined ones.
+- Monitor Crazyflie's behavior using logging and visual tools.
 
 ---
 
 ## Results
 
 Tiny-LB-MPC achieves:
-- **23% improvement in RMS tracking error** over a baseline MPC.
-- Reliable **real-time operation at 100 Hz**.
-- Full onboard computation without offloading.
+- **23% improvement in RMS tracking error** over baseline MPC.
+- **Reliable real-time operation at 100 Hz**.
+- Fully embedded deployment—no offboard computation required.
 
 ---
 
 ## Citation
 
 If you use Tiny-LB-MPC in your work, please cite:
+
 ```bibtex
 @article{akbari2024tiny,
   title={Tiny Learning-Based MPC for Multirotors: Solver-Aware Learning for Efficient Embedded Predictive Control},
