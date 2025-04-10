@@ -5,8 +5,6 @@ Tiny-LB-MPC is a novel framework for deploying learning-based model predictive c
 
 ## Overview
 
-Tiny aerial robots offer immense promise for applications like search and rescue, exploration, and monitoring. However, their computational constraints make it difficult to deploy advanced control algorithms.
-
 Tiny-LB-MPC tackles this by:
 - Leveraging the **differential flatness** property of multirotors to reduce problem complexity.
 - Introducing a **solver-aware learning** approach that makes the control problem tractable on embedded hardware.
@@ -43,9 +41,6 @@ TBD
 
 Tiny-LB-MPC achieves:
 - **43% improvement in RMS tracking error** over baseline MPC.
-
-### GIFs
-
 Here are three videos comparing Tiny LB MPC with Tiny L MPC and Tiny FB MPC:
 
 <p align="center">
