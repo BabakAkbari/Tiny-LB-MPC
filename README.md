@@ -59,9 +59,3 @@ Here are three videos comparing Tiny LB MPC with Tiny L MPC and Tiny FB MPC:
 If you use Tiny-LB-MPC in your work, please cite:
 
 TBD
-
----
-
-## License
-
-This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
