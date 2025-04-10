@@ -21,8 +21,6 @@ This is the **first implementation of learning-based MPC deployed onboard** a ti
 
 ## Getting Started
 
-TBD
-
 ### Prerequisites
 
 - [Visual Studio Code](https://code.visualstudio.com/)
