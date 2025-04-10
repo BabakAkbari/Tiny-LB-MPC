@@ -66,12 +66,10 @@ Tiny-LB-MPC achieves:
 Here are three GIFs showcasing different versions of the Tiny-LB-MPC implementation:
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="media/Tiny L MPC.gif" width="300" alt="Tiny L MPC">
-  <img src="media/Tiny FB MPC.gif" width="300" alt="Tiny FB MPC">
-  <img src="media/Tiny LB MPC.gif" width="300" alt="Tiny LB MPC">
+  <img src="media/Tiny L MPC.gif" width="290" alt="Tiny L MPC">
+  <img src="media/Tiny FB MPC.gif" width="290" alt="Tiny FB MPC">
+  <img src="media/Tiny LB MPC.gif" width="290" alt="Tiny LB MPC">
 </div>
-
----
 
 ## Citation
 
