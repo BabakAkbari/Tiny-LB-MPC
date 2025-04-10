@@ -70,7 +70,8 @@ Here are three GIFs showcasing different versions of the Tiny-LB-MPC implementat
   <img src="media/Tiny FB MPC.gif" width="200" alt="Tiny FB MPC">
   <img src="media/Tiny LB MPC.gif" width="200" alt="Tiny LB MPC">
 </p>
-## Citation
+
+### Citation
 
 If you use Tiny-LB-MPC in your work, please cite:
 
