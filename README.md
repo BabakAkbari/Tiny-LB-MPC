@@ -66,9 +66,9 @@ Tiny-LB-MPC achieves:
 Here are three GIFs showcasing different versions of the Tiny-LB-MPC implementation:
 
 <div>
-  <img src="media/Tiny L MPC.gif" width="200" alt="Tiny L MPC" style="display: inline-block;">
-  <img src="media/Tiny FB MPC.gif" width="200" alt="Tiny FB MPC" style="display: inline-block;">
-  <img src="media/Tiny LB MPC.gif" width="200" alt="Tiny LB MPC" style="display: inline-block;">
+  <img src="media/Tiny L MPC.gif" width="200" alt="Tiny L MPC">
+  <img src="media/Tiny FB MPC.gif" width="200" alt="Tiny FB MPC">
+  <img src="media/Tiny LB MPC.gif" width="200" alt="Tiny LB MPC">
 </div>
 
 ## Citation
