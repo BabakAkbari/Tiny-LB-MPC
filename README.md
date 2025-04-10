@@ -38,11 +38,7 @@ This is the **first implementation of learning-based MPC deployed onboard** a ti
 
 ## Getting Started
 
-### Clone the Repository
-
-```bash
-git clone https://github.com/BabakAkbari/Tiny-LB-MPC.git
-```
+TBD
 
 ### Prerequisites
 
@@ -57,37 +53,6 @@ git clone https://github.com/BabakAkbari/Tiny-LB-MPC.git
    ```bash
    pio platform install teensy
    ```
-3. (Optional) Example `platformio.ini` for Teensy 4.0:
-
-   ```ini
-   [env:teensy40]
-   platform = teensy
-   board = teensy40
-   framework = arduino
-   upload_protocol = teensy-cli
-   monitor_speed = 115200
-   ```
-
-### Build and Upload
-
-1. Open the `firmware/` directory in VS Code using PlatformIO.
-2. Use the **Build** and **Upload** buttons in the PlatformIO toolbar, or run:
-
-   ```bash
-   pio run --target upload
-   ```
-
-Refer to the `/firmware` and `/models` folders for code organization.
-
----
-
-## Usage
-
-- Load and initialize the MPC module on Teensy.
-- Send trajectory waypoints from a base station or use predefined ones.
-- Monitor Crazyflie's behavior using logging and visual tools.
-
----
 
 ## Results
 
@@ -96,29 +61,35 @@ Tiny-LB-MPC achieves:
 - **Reliable real-time operation at 100 Hz**.
 - Fully embedded deployment—no offboard computation required.
 
+### Videos
+
+Here are three videos showcasing different versions of the Tiny-LB-MPC implementation:
+
+<div style="display: flex; justify-content: space-between;">
+  <video width="300" controls>
+    <source src="/media/Tiny L MPC.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="300" controls>
+    <source src="/media/Tiny FB MPC.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="300" controls>
+    <source src="/media/Tiny LB MPC.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
 ---
 
 ## Citation
 
 If you use Tiny-LB-MPC in your work, please cite:
 
-```bibtex
-@article{akbari2024tiny,
-  title={Tiny Learning-Based MPC for Multirotors: Solver-Aware Learning for Efficient Embedded Predictive Control},
-  author={Akbari, Babak and Frank, Justin and Greeff, Melissa},
-  journal={arXiv preprint arXiv:2410.23634},
-  year={2024}
-}
-```
+TBD
 
 ---
 
 ## License
 
 This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
----
-
-## Acknowledgments
-
-We thank the members of the Agile Robotics and Perception Lab for their support and feedback.
