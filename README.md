@@ -63,7 +63,7 @@ Tiny-LB-MPC achieves:
 
 ### GIFs
 
-Here are three GIFs showcasing different versions of the Tiny-LB-MPC implementation:
+Here are three videos comparing Tiny LB MPC with Tiny L MPC and Tiny FB MPC:
 
 <p align="center">
   <img src="media/Tiny L MPC.gif" width="250" alt="Tiny L MPC">
