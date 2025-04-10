@@ -61,14 +61,15 @@ Tiny-LB-MPC achieves:
 - **Reliable real-time operation at 100 Hz**.
 - Fully embedded deployment—no offboard computation required.
 
-### Videos
+### GIFs
 
+Here are three GIFs showcasing different versions of the Tiny-LB-MPC implementation:
 
-Here are three videos showcasing different versions of the Tiny-LB-MPC implementation:
-
-- [Tiny L MPC](media/Tiny%20L%20MPC.mp4)
-- [Tiny FB MPC](media/Tiny%20FB%20MPC.mp4)
-- [Tiny LB MPC](media/Tiny%20LB%20MPC.mp4)
+<div style="display: flex; justify-content: space-between;">
+  <img src="media/Tiny_L_MPC.gif" width="300" alt="Tiny L MPC">
+  <img src="media/Tiny_FB_MPC.gif" width="300" alt="Tiny FB MPC">
+  <img src="media/Tiny_LB_MPC.gif" width="300" alt="Tiny LB MPC">
+</div>
 
 ---
 
