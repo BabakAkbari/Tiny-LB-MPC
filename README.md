@@ -2,7 +2,6 @@
 
 Tiny-LB-MPC is a novel framework for deploying learning-based model predictive control (MPC) on resource-constrained micro multirotor platforms.
 
----
 
 ## Overview
 
@@ -15,26 +14,12 @@ Tiny-LB-MPC tackles this by:
 
 This is the **first implementation of learning-based MPC deployed onboard** a tiny (53 g) multirotor system.
 
----
-
-## Features
-
-- **Learning-Based MPC**: Augments model-based control with data-driven dynamics.
-- **Solver-Aware Learning**: Optimizes for runtime efficiency during training.
-- **Embedded Deployment**: Runs entirely on a Teensy 4.0 microcontroller.
-- **Real-Time Capable**: Executes at 100 Hz using limited onboard resources.
-- **Tracking Improvement**: Demonstrates ~23% improvement over baseline MPC methods.
-
----
-
 ## Hardware Setup
 
-- **Crazyflie 2.1** (flight controller and sensors)
-- **Teensy 4.0** (executes MPC and low-level control)
+- **Crazyflie 2.1**
+- **Teensy 4.0** (executes MPC)
 - **Custom expansion board** (to interface Crazyflie and Teensy)
-- **High-thrust motors and propellers** (to support aggressive flight)
-
----
+- **High-thrust motors and propellers**
 
 ## Getting Started
 
@@ -57,9 +42,7 @@ TBD
 ## Results
 
 Tiny-LB-MPC achieves:
-- **23% improvement in RMS tracking error** over baseline MPC.
-- **Reliable real-time operation at 100 Hz**.
-- Fully embedded deployment—no offboard computation required.
+- **43% improvement in RMS tracking error** over baseline MPC.
 
 ### GIFs
 
